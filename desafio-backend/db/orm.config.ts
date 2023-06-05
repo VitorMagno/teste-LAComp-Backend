@@ -7,6 +7,6 @@ export const config: TypeOrmModuleOptions = {
     port:5432,
     host:'postgres',
     database:'desafio-back',
-    synchronize:true,
     entities:['dist/**/*.entity{.ts,.js}'],
+    migrations:['dist/db/migrations/*.js']
 }
