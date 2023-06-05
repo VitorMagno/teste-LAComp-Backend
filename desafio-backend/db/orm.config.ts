@@ -8,6 +8,5 @@ export const config: TypeOrmModuleOptions = {
     host:'postgres',
     database:'desafio-back',
     synchronize:true,
-    entities:['dist/**/*.entity{.ts,.js}']
-
+    entities:['dist/**/*.entity{.ts,.js}'],
 }
