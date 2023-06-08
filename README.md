@@ -39,9 +39,13 @@ Crie um [Fork](https://docs.github.com/pt/get-started/quickstart/fork-a-repo) de
 
 ## Instruções de execução
  
- A branch main é uma versão sem migration, então a executar o 'npm run start:dev' as tabelas no banco serão criadas. Portanto basta apenas configurar o arquivo 'orm.config.ts'.
+ A branch main é uma versão sem migration, então ao executar o 'npm run start:dev' as tabelas no banco serão criadas. Portanto basta apenas configurar o arquivo 'orm.config.ts'.
  
  Na branch alternative é uma versão com migration, então será necessário executar alguns comandos, além de configurar o 'orm.config.ts'.
   - 'npm migration:generate' para gerar as migrations.
   - 'npm migration:run' para fazer as migrations.
   - 'npm migration:revert' para reverter.
+### Endpoint
+
+ Estou usando o swagger que facilita a documentação de api então basta acessar o endpoint principal e lá estarão os outros documentados.
+ - localhost:3000/api
