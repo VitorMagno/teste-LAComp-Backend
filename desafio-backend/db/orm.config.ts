@@ -5,8 +5,8 @@ export const config: TypeOrmModuleOptions = {
     username:'postgres',
     password:'admin123',
     port:5432,
-    host:'postgres',
+    host:'localhost',
     database:'desafio-back',
     synchronize:true,
-    entities:['dist/**/*.entity{.ts,.js}'],
+    entities:['../src/**/*.entity{.ts,.js}'],
 }
