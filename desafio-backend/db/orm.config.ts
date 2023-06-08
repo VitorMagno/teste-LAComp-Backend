@@ -8,5 +8,5 @@ export const config: TypeOrmModuleOptions = {
     host:'localhost',
     database:'postgres',
     synchronize:true,
-    entities:['../dist/**/*.entity{.ts,.js}'],
+    entities:['/dist/**/*.entity{.ts,.js}'],
 }
